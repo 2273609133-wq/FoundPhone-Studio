@@ -2,17 +2,17 @@
   "scriptVersion": 1,
   "id": "found-xiaojun-phone",
   "title": "捡到肖俊的手机",
-  "description": "你在首尔江南一家咖啡店捡到一部没锁屏的 iPhone。微信在弹，Instagram 有一条未读私信，备忘录上着锁。这是一个基于威神 V 成员的虚构同人故事，与真人真实生活、真实账号、真实公司决策无关。 头像素材由作者提供。",
-  "revision": 2,
+  "description": "你在首尔江南一家咖啡店捡到一部没锁屏的 iPhone。微信在弹，Instagram 有一条未读私信，备忘录上着锁。这是一个基于威神 V 成员的虚构同人故事，与真人真实生活、真实账号、真实公司决策无关。头像素材由作者提供。",
+  "revision": 3,
   "phone": {
     "owner": "肖俊",
     "date": "2026-10-25",
     "time": "14:32",
+    "passcode": "1008",
     "battery": 61,
     "network": "KT 5G",
     "wallpaper": "sage",
-    "theme": "dark",
-    "passcode": "1008"
+    "theme": "dark"
   },
   "installedApps": [
     "phone",
@@ -26,9 +26,17 @@
     "kakao",
     "instagram",
     "safari",
+    "mail",
     "appstore"
   ],
   "contacts": [
+    {
+      "id": "owner",
+      "name": "肖俊",
+      "phone": "",
+      "avatar": "data:image/jpeg;base64,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",
+      "bio": ""
+    },
     {
       "id": "yy",
       "name": "小羊",
@@ -65,20 +73,6 @@
       "bio": "行程"
     },
     {
-      "id": "sasaeng",
-      "name": "未知号码",
-      "phone": "+82 10-0000-0000",
-      "avatar": "",
-      "bio": ""
-    },
-    {
-      "id": "owner",
-      "name": "我",
-      "phone": "",
-      "avatar": "data:image/jpeg;base64,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",
-      "bio": ""
-    },
-    {
       "id": "mom",
       "name": "妈妈",
       "phone": "",
@@ -89,6 +83,13 @@
       "id": "dad",
       "name": "爸爸",
       "phone": "",
+      "avatar": "",
+      "bio": ""
+    },
+    {
+      "id": "sasaeng",
+      "name": "未知号码",
+      "phone": "+82 10-0000-0000",
       "avatar": "",
       "bio": ""
     }
@@ -146,10 +147,22 @@
           "time": "14:19"
         },
         {
-          "id": "wx-yy-pwhint",
+          "id": "wx-yy-8",
           "body": "行，我等你。别又一个人扛。",
           "senderId": "yy",
           "time": "14:21"
+        },
+        {
+          "id": "wx-yy-9",
+          "body": "俊啊。我刚才在电梯里碰到锟哥了，他看了我一眼，没说话。",
+          "senderId": "yy",
+          "time": "14:25"
+        },
+        {
+          "id": "wx-yy-10",
+          "body": "我怕他其实什么都知道，只是在等我们自己开口。",
+          "senderId": "yy",
+          "time": "14:26"
         }
       ]
     },
@@ -173,52 +186,12 @@
           "body": "还有，公司那边问起你俩最近状态，我按行程回的。你心里有数就行。",
           "senderId": "kun",
           "time": "13:45"
-        }
-      ]
-    },
-    {
-      "id": "chat-kakao-hendery",
-      "app": "kakao",
-      "title": "Hendery",
-      "participants": [
-        "hendery",
-        "owner"
-      ],
-      "messages": [
-        {
-          "id": "kk-hen-1",
-          "body": "哥，今天直播你要不要来我房间串个门？",
-          "senderId": "hendery",
-          "time": "12:02"
         },
         {
-          "id": "kk-hen-2",
-          "body": "别带扬扬来，他上次把我零食吃完了",
-          "senderId": "hendery",
-          "time": "12:02"
-        }
-      ]
-    },
-    {
-      "id": "chat-sms-sasaeng",
-      "app": "messages",
-      "title": "未知号码",
-      "participants": [
-        "sasaeng",
-        "owner"
-      ],
-      "messages": [
-        {
-          "id": "sms-ss-1",
-          "body": "Oppa, I saw you two at the Hannam cafe yesterday. The photo is very clear.",
-          "senderId": "sasaeng",
-          "time": "10:22"
-        },
-        {
-          "id": "sms-ss-2",
-          "body": "Ignore this and it goes on Twitter. 5 million won, no police, no company.",
-          "senderId": "sasaeng",
-          "time": "10:23"
+          "id": "wx-kun-3",
+          "body": "我不问。但你要做什么决定，提前跟我说一声，别让我从新闻里看到。",
+          "senderId": "kun",
+          "time": "13:46"
         }
       ]
     },
@@ -264,15 +237,78 @@
         },
         {
           "id": "wx-fam-6",
-          "body": "（没有接这句话）",
-          "senderId": "owner",
-          "time": "12:05"
-        },
-        {
-          "id": "wx-fam-7",
           "body": "妈妈感觉你最近心情挺好的，是不是遇到什么事了？",
           "senderId": "mom",
           "time": "14:02"
+        }
+      ]
+    },
+    {
+      "id": "chat-kakao-hendery",
+      "app": "kakao",
+      "title": "Hendery",
+      "participants": [
+        "hendery",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kk-hen-1",
+          "body": "哥，今天直播你要不要来我房间串个门？",
+          "senderId": "hendery",
+          "time": "12:02"
+        },
+        {
+          "id": "kk-hen-2",
+          "body": "别带扬扬来，他上次把我零食吃完了",
+          "senderId": "hendery",
+          "time": "12:02"
+        }
+      ]
+    },
+    {
+      "id": "chat-kakao-ten",
+      "app": "kakao",
+      "title": "Ten",
+      "participants": [
+        "ten",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "kk-ten-1",
+          "body": "弟，你跟扬扬最近是不是怪怪的？",
+          "senderId": "ten",
+          "time": "13:00"
+        },
+        {
+          "id": "kk-ten-2",
+          "body": "别紧张，我什么都没看见。你自己想清楚就好。",
+          "senderId": "ten",
+          "time": "13:01"
+        }
+      ]
+    },
+    {
+      "id": "chat-sms-sasaeng",
+      "app": "messages",
+      "title": "未知号码",
+      "participants": [
+        "sasaeng",
+        "owner"
+      ],
+      "messages": [
+        {
+          "id": "sms-ss-1",
+          "body": "Oppa, I saw you two at the Hannam cafe yesterday. The photo is very clear.",
+          "senderId": "sasaeng",
+          "time": "10:22"
+        },
+        {
+          "id": "sms-ss-2",
+          "body": "Ignore this and it goes on Twitter. 5 million won, no police, no company.",
+          "senderId": "sasaeng",
+          "time": "10:23"
         }
       ]
     }
@@ -335,6 +371,16 @@
         "kind": "call"
       }
     ],
+    "mail": [
+      {
+        "id": "mail-smt",
+        "title": "[SM 官方] 关于近日媒体传闻的内部确认",
+        "body": "肖俊先生：\n\n近期公司监测到部分社交媒体出现关于您与同组合成员的不实传闻。请于今日 18:00 前回复本邮件，确认事实情况。公司将根据回复决定后续行程安排。\n\n——艺人管理部",
+        "sender": "SM 艺人管理部",
+        "kind": "post",
+        "time": "2026-10-25 13:00"
+      }
+    ],
     "safari": [
       {
         "id": "safari-history-1",
@@ -387,7 +433,13 @@
       }
     ]
   },
-  "variables": {},
+  "variables": {
+    "trust": 50,
+    "threat": "none",
+    "manager": "none",
+    "yy": "none",
+    "final": ""
+  },
   "events": [
     {
       "id": "start",
@@ -446,14 +498,14 @@
           "value": true
         },
         {
-          "type": "notification",
-          "key": "",
-          "value": "Instagram 有一条新的私信，来自一个匿名账号。"
-        },
-        {
           "type": "unlock",
           "key": "photo-duo-hannam",
           "value": true
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "Instagram 有一条新的私信，来自一个匿名账号。"
         }
       ],
       "next": [
@@ -467,86 +519,532 @@
       "event": "read",
       "target": "ig-threat",
       "next": [
-        "decision"
+        "choice-1"
       ]
     },
     {
-      "id": "decision",
-      "label": "现在，这部手机在你手里。你要怎么做？",
+      "id": "choice-1",
+      "label": "你看到了那条勒索私信。先做什么？",
       "type": "choice",
       "next": [
-        "reply-yangyang",
-        "reply-manager",
-        "leave-phone"
+        "t-screenshot",
+        "t-delete",
+        "t-call-sasaeng"
       ]
     },
     {
-      "id": "reply-yangyang",
-      "label": "回微信给「小羊」",
+      "id": "t-screenshot",
+      "label": "先截图保存证据",
       "type": "action",
       "actions": [
         {
+          "type": "variable",
+          "key": "threat",
+          "value": "screenshot"
+        },
+        {
           "type": "notification",
           "key": "",
-          "value": "你以肖俊的口吻发了一句：「手机在我手里的人，是个路人。你快来咖啡店。」"
+          "value": "你把私信截图存进了相册。"
         }
       ],
       "next": [
-        "ending-tell-yangyang"
+        "wait-1"
       ]
     },
     {
-      "id": "ending-tell-yangyang",
-      "label": "两个人一起来取手机",
-      "type": "ending",
-      "actions": [
-        {
-          "type": "ending",
-          "key": "",
-          "value": "结局 · 两个人一起来取手机：二十分钟后，扬扬一个人推门进来，跑得很急。他看到你屏幕上那条勒索私信，没说话，先把手机接过去，然后给自己拨了个电话。后来肖俊才跟着进来，眼睛是红的。他们没有问你是谁，也没有要你删掉什么。扬扬只是说了一句「谢谢」。一周后你刷到他们一起发的手写字：「我们很好。」"
-        }
-      ]
-    },
-    {
-      "id": "reply-manager",
-      "label": "回拨赵室长",
+      "id": "t-delete",
+      "label": "直接删掉当没看见",
       "type": "action",
       "actions": [
         {
+          "type": "variable",
+          "key": "threat",
+          "value": "delete"
+        },
+        {
           "type": "notification",
           "key": "",
-          "value": "你拨通了赵室长的未接来电，把勒索短信念了一遍。"
+          "value": "你删了私信，装作什么都没发生。"
         }
       ],
       "next": [
-        "ending-call-manager"
+        "wait-1"
       ]
     },
     {
-      "id": "ending-call-manager",
-      "label": "经纪人接管",
-      "type": "ending",
+      "id": "t-call-sasaeng",
+      "label": "回拨那个未知号码跟他谈",
+      "type": "action",
       "actions": [
         {
-          "type": "ending",
+          "type": "variable",
+          "key": "threat",
+          "value": "call"
+        },
+        {
+          "type": "notification",
           "key": "",
-          "value": "结局 · 经纪人接管：赵室长十五分钟就赶到了，一路小跑。他没有感谢你，只是让你把手机交出来，又让你当场把咖啡店的监控照片删掉。一周后你刷到回归行程照常上线，直播里肖俊和扬扬被刻意安排在画面两端。你后来再也没在那家咖啡店见过他们。"
+          "value": "你回拨了那个号码。对方开口就要 500 万。"
         }
+      ],
+      "next": [
+        "ending-boom"
       ]
     },
     {
-      "id": "leave-phone",
-      "label": "什么都不碰，把手机放回吧台",
+      "id": "wait-1",
+      "label": "三十分钟后",
+      "type": "delay",
+      "delayMs": 1500,
+      "actions": [
+        {
+          "type": "time",
+          "key": "",
+          "value": "15:05"
+        },
+        {
+          "type": "call",
+          "key": "call-manager",
+          "value": "赵室长"
+        }
+      ],
+      "next": [
+        "choice-2"
+      ]
+    },
+    {
+      "id": "choice-2",
+      "label": "赵室长来电话了。接不接？",
+      "type": "choice",
+      "next": [
+        "a-manager",
+        "m-manager"
+      ]
+    },
+    {
+      "id": "a-manager",
+      "label": "接",
       "type": "action",
       "actions": [
         {
           "type": "notification",
           "key": "",
-          "value": "你留下一张纸条：「你的手机在吧台。别再丢了。」"
+          "value": "「俊啊，公司问你和扬扬最近是不是住得太近了。你自己说。」"
+        }
+      ],
+      "next": [
+        "choice-3"
+      ]
+    },
+    {
+      "id": "m-manager",
+      "label": "不接",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "manager",
+          "value": "missed"
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "你按掉了电话。赵室长三分钟后发来一条短信：「你最好自己回公司说。」"
+        }
+      ],
+      "next": [
+        "wait-2"
+      ]
+    },
+    {
+      "id": "choice-3",
+      "label": "赵室长在电话那头等你回答。",
+      "type": "choice",
+      "next": [
+        "deny-m",
+        "silent-m",
+        "admit-m"
+      ]
+    },
+    {
+      "id": "deny-m",
+      "label": "「我们就是室友，没别的。」",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "manager",
+          "value": "deny"
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "赵室长叹了口气：「行，我知道了。你好自为之。」"
+        }
+      ],
+      "next": [
+        "wait-2"
+      ]
+    },
+    {
+      "id": "silent-m",
+      "label": "沉默，不承认也不否认",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "manager",
+          "value": "silent"
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "电话那头沉默了很久。「你自己想清楚。」"
+        }
+      ],
+      "next": [
+        "wait-2"
+      ]
+    },
+    {
+      "id": "admit-m",
+      "label": "「室长，我和扬扬在一起了。」",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "manager",
+          "value": "admit"
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "赵室长很久没说话。「……我把这件事报上去。你等通知。」"
+        }
+      ],
+      "next": [
+        "wait-2"
+      ]
+    },
+    {
+      "id": "wait-2",
+      "label": "又过了十五分钟",
+      "type": "delay",
+      "delayMs": 1500,
+      "actions": [
+        {
+          "type": "time",
+          "key": "",
+          "value": "15:20"
+        },
+        {
+          "type": "call",
+          "key": "call-yy",
+          "value": "小羊"
+        }
+      ],
+      "next": [
+        "choice-4"
+      ]
+    },
+    {
+      "id": "choice-4",
+      "label": "小羊来电话了。接不接？",
+      "type": "choice",
+      "next": [
+        "a-yy",
+        "m-yy"
+      ]
+    },
+    {
+      "id": "a-yy",
+      "label": "接",
+      "type": "action",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "「俊……你在哪？我好慌。那个站子的照片我看到了。」"
+        }
+      ],
+      "next": [
+        "choice-5"
+      ]
+    },
+    {
+      "id": "m-yy",
+      "label": "不接",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "yy",
+          "value": "missed"
+        },
+        {
+          "type": "variable",
+          "key": "trust",
+          "value": 30
+        },
+        {
+          "type": "notification",
+          "key": "",
+          "value": "你按掉了扬扬的电话。屏幕上他发了三条消息进来，你一条都没回。"
+        }
+      ],
+      "next": [
+        "choice-6"
+      ]
+    },
+    {
+      "id": "choice-5",
+      "label": "扬扬在电话里哭。你说什么？",
+      "type": "choice",
+      "next": [
+        "steady-yy",
+        "push-yy",
+        "honest-yy"
+      ]
+    },
+    {
+      "id": "steady-yy",
+      "label": "「没事，有我在。你先回宿舍。」",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "yy",
+          "value": "steady"
+        },
+        {
+          "type": "variable",
+          "key": "trust",
+          "value": 70
+        }
+      ],
+      "next": [
+        "choice-6"
+      ]
+    },
+    {
+      "id": "push-yy",
+      "label": "「你最近先别来找我，避一避。」",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "yy",
+          "value": "push"
+        },
+        {
+          "type": "variable",
+          "key": "trust",
+          "value": 25
+        }
+      ],
+      "next": [
+        "choice-6"
+      ]
+    },
+    {
+      "id": "honest-yy",
+      "label": "「扬扬，我们是不是该想想清楚？」",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "yy",
+          "value": "honest"
+        },
+        {
+          "type": "variable",
+          "key": "trust",
+          "value": 60
+        }
+      ],
+      "next": [
+        "choice-6"
+      ]
+    },
+    {
+      "id": "choice-6",
+      "label": "现在，这部手机还在你手里。你最后怎么做？",
+      "type": "choice",
+      "next": [
+        "f-stay",
+        "f-surrender",
+        "f-leave"
+      ]
+    },
+    {
+      "id": "f-stay",
+      "label": "留下来，等他们来取",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "final",
+          "value": "stay"
+        }
+      ],
+      "next": [
+        "route"
+      ]
+    },
+    {
+      "id": "f-surrender",
+      "label": "直接联系赵室长，把一切交给公司",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "final",
+          "value": "surrender"
+        }
+      ],
+      "next": [
+        "route"
+      ]
+    },
+    {
+      "id": "f-leave",
+      "label": "什么都不做，把手机放回吧台",
+      "type": "action",
+      "actions": [
+        {
+          "type": "variable",
+          "key": "final",
+          "value": "leave"
+        }
+      ],
+      "next": [
+        "route"
+      ]
+    },
+    {
+      "id": "route",
+      "label": "命运结算",
+      "type": "action",
+      "actions": [],
+      "next": [
+        "r-leave",
+        "r-surrender",
+        "r-admit",
+        "r-together",
+        "r-breakup"
+      ]
+    },
+    {
+      "id": "r-leave",
+      "label": "你只是路过",
+      "type": "condition",
+      "conditions": [
+        {
+          "key": "final",
+          "op": "eq",
+          "value": "leave"
         }
       ],
       "next": [
         "ending-leave"
+      ]
+    },
+    {
+      "id": "r-surrender",
+      "label": "交给公司",
+      "type": "condition",
+      "conditions": [
+        {
+          "key": "final",
+          "op": "eq",
+          "value": "surrender"
+        }
+      ],
+      "next": [
+        "ending-surrender"
+      ]
+    },
+    {
+      "id": "r-admit",
+      "label": "已经坦白",
+      "type": "condition",
+      "conditions": [
+        {
+          "key": "final",
+          "op": "eq",
+          "value": "stay"
+        },
+        {
+          "key": "manager",
+          "op": "eq",
+          "value": "admit"
+        }
+      ],
+      "next": [
+        "ending-confess"
+      ]
+    },
+    {
+      "id": "r-together",
+      "label": "一起扛",
+      "type": "condition",
+      "conditions": [
+        {
+          "key": "final",
+          "op": "eq",
+          "value": "stay"
+        },
+        {
+          "key": "manager",
+          "op": "neq",
+          "value": "admit"
+        },
+        {
+          "key": "trust",
+          "op": "gt",
+          "value": 59
+        }
+      ],
+      "next": [
+        "ending-together"
+      ]
+    },
+    {
+      "id": "r-breakup",
+      "label": "散了",
+      "type": "condition",
+      "conditions": [
+        {
+          "key": "final",
+          "op": "eq",
+          "value": "stay"
+        },
+        {
+          "key": "manager",
+          "op": "neq",
+          "value": "admit"
+        },
+        {
+          "key": "trust",
+          "op": "lt",
+          "value": 60
+        }
+      ],
+      "next": [
+        "ending-breakup"
+      ]
+    },
+    {
+      "id": "ending-boom",
+      "label": "事情爆了",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "结局 · 事情爆了：你回拨那个号码的第三天，推特上出现了一张完整的照片。评论区一开始只是磕糖，后来变成了对肖俊和扬扬的网暴。公司发了声明，两个人被暂停活动三个月。你坐在咖啡店吧台前，看着热搜词条刷新，手里还攥着那杯没喝完的冰美式。"
+        }
       ]
     },
     {
@@ -557,14 +1055,62 @@
         {
           "type": "ending",
           "key": "",
-          "value": "结局 · 你只是路过：第二天你故意在同一时间去那家咖啡店写论文。下午两点，肖俊推门进来，对店员笑了一下，从吧台拿起手机。他有没有看到那条勒索私信、有没有回扬扬，你永远不会知道。你把咖啡喝完，走了。"
+          "value": "结局 · 你只是路过：你留下一张纸条「你的手机在吧台」，走了。第二天你故意在同一时间去那家咖啡店写论文。下午两点，肖俊推门进来，对店员笑了一下，从吧台拿起手机。他有没有看到那条勒索私信、有没有回扬扬，你永远不会知道。你把咖啡喝完，走了。"
+        }
+      ]
+    },
+    {
+      "id": "ending-surrender",
+      "label": "交给公司",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "结局 · 交给公司：你拨通了赵室长的电话，把一切都告诉他。第二天，两个人被分开安排行程，同框的镜头被剪掉，社交账号互相取关。三个月后，他们在一次颁奖典礼上擦肩而过，谁也没看谁。你后来再也没在那家咖啡店见过他们。"
+        }
+      ]
+    },
+    {
+      "id": "ending-confess",
+      "label": "坦白",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "结局 · 坦白：赵室长把事情报上去的第二周，公司发了一份声明，承认两人正在慎重交往，暂停活动三个月反思。三个月后他们一起出现在练习室门口，扬扬红着眼睛，但牵着肖俊的手。粉丝骂声一片，但也有很多人说「祝好」。你把手机还给肖俊的时候，他对你说了一句：「不管你是谁，谢谢。」"
+        }
+      ]
+    },
+    {
+      "id": "ending-together",
+      "label": "我们很好",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "结局 · 我们很好：二十分钟后，扬扬一个人推门进来，跑得很急。他看到你屏幕上那条勒索私信，没说话，先把手机接过去，然后给自己拨了个电话。后来肖俊才跟着进来，眼睛是红的。他们没有问你是谁，也没有要你删掉什么。扬扬只是说了一句「谢谢」。一周后你刷到他们一起发的手写字：「我们很好。」"
+        }
+      ]
+    },
+    {
+      "id": "ending-breakup",
+      "label": "散了",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "结局 · 散了：你按掉了扬扬的电话，又跟经纪人否认了一切。那天晚上，扬扬发来最后一条消息：「我以为你会站在我这边。」你没有回。第二天，他们在练习室见面，像普通同事一样点头致意。一年后，扬扬在直播里被问到最近的理想型，他笑了一下，说「顺其自然吧」。你关掉了那个网页。"
         }
       ]
     }
   ],
   "tests": [
     {
-      "name": "ending-tell-yangyang",
+      "name": "ending-together",
       "steps": [
         {
           "event": "read",
@@ -584,10 +1130,31 @@
           "target": "ig-threat"
         },
         {
-          "choose": "reply-yangyang"
+          "choose": "t-screenshot"
+        },
+        {
+          "advanceMs": 2000
+        },
+        {
+          "choose": "a-manager"
+        },
+        {
+          "choose": "deny-m"
+        },
+        {
+          "advanceMs": 2000
+        },
+        {
+          "choose": "a-yy"
+        },
+        {
+          "choose": "steady-yy"
+        },
+        {
+          "choose": "f-stay"
         }
       ],
-      "ending": "结局 · 两个人一起来取手机：二十分钟后，扬扬一个人推门进来，跑得很急。他看到你屏幕上那条勒索私信，没说话，先把手机接过去，然后给自己拨了个电话。后来肖俊才跟着进来，眼睛是红的。他们没有问你是谁，也没有要你删掉什么。扬扬只是说了一句「谢谢」。一周后你刷到他们一起发的手写字：「我们很好。」",
+      "ending": "结局 · 我们很好：二十分钟后，扬扬一个人推门进来，跑得很急。他看到你屏幕上那条勒索私信，没说话，先把手机接过去，然后给自己拨了个电话。后来肖俊才跟着进来，眼睛是红的。他们没有问你是谁，也没有要你删掉什么。扬扬只是说了一句「谢谢」。一周后你刷到他们一起发的手写字：「我们很好。」",
       "expectUnlocked": [
         "note-inner",
         "ig-threat",
@@ -595,7 +1162,7 @@
       ]
     },
     {
-      "name": "ending-call-manager",
+      "name": "ending-breakup",
       "steps": [
         {
           "event": "read",
@@ -615,10 +1182,126 @@
           "target": "ig-threat"
         },
         {
-          "choose": "reply-manager"
+          "choose": "t-delete"
+        },
+        {
+          "advanceMs": 2000
+        },
+        {
+          "choose": "a-manager"
+        },
+        {
+          "choose": "deny-m"
+        },
+        {
+          "advanceMs": 2000
+        },
+        {
+          "choose": "m-yy"
+        },
+        {
+          "choose": "f-stay"
         }
       ],
-      "ending": "结局 · 经纪人接管：赵室长十五分钟就赶到了，一路小跑。他没有感谢你，只是让你把手机交出来，又让你当场把咖啡店的监控照片删掉。一周后你刷到回归行程照常上线，直播里肖俊和扬扬被刻意安排在画面两端。你后来再也没在那家咖啡店见过他们。",
+      "ending": "结局 · 散了：你按掉了扬扬的电话，又跟经纪人否认了一切。那天晚上，扬扬发来最后一条消息：「我以为你会站在我这边。」你没有回。第二天，他们在练习室见面，像普通同事一样点头致意。一年后，扬扬在直播里被问到最近的理想型，他笑了一下，说「顺其自然吧」。你关掉了那个网页。",
+      "expectUnlocked": [
+        "note-inner",
+        "ig-threat",
+        "photo-duo-hannam"
+      ]
+    },
+    {
+      "name": "ending-confess",
+      "steps": [
+        {
+          "event": "read",
+          "target": "wx-yy-1"
+        },
+        {
+          "event": "read",
+          "target": "wx-yy-7"
+        },
+        {
+          "event": "read",
+          "target": "note-inner",
+          "password": "1008"
+        },
+        {
+          "event": "read",
+          "target": "ig-threat"
+        },
+        {
+          "choose": "t-screenshot"
+        },
+        {
+          "advanceMs": 2000
+        },
+        {
+          "choose": "a-manager"
+        },
+        {
+          "choose": "admit-m"
+        },
+        {
+          "advanceMs": 2000
+        },
+        {
+          "choose": "a-yy"
+        },
+        {
+          "choose": "steady-yy"
+        },
+        {
+          "choose": "f-stay"
+        }
+      ],
+      "ending": "结局 · 坦白：赵室长把事情报上去的第二周，公司发了一份声明，承认两人正在慎重交往，暂停活动三个月反思。三个月后他们一起出现在练习室门口，扬扬红着眼睛，但牵着肖俊的手。粉丝骂声一片，但也有很多人说「祝好」。你把手机还给肖俊的时候，他对你说了一句：「不管你是谁，谢谢。」",
+      "expectUnlocked": [
+        "note-inner",
+        "ig-threat",
+        "photo-duo-hannam"
+      ]
+    },
+    {
+      "name": "ending-surrender",
+      "steps": [
+        {
+          "event": "read",
+          "target": "wx-yy-1"
+        },
+        {
+          "event": "read",
+          "target": "wx-yy-7"
+        },
+        {
+          "event": "read",
+          "target": "note-inner",
+          "password": "1008"
+        },
+        {
+          "event": "read",
+          "target": "ig-threat"
+        },
+        {
+          "choose": "t-screenshot"
+        },
+        {
+          "advanceMs": 2000
+        },
+        {
+          "choose": "m-manager"
+        },
+        {
+          "advanceMs": 2000
+        },
+        {
+          "choose": "m-yy"
+        },
+        {
+          "choose": "f-surrender"
+        }
+      ],
+      "ending": "结局 · 交给公司：你拨通了赵室长的电话，把一切都告诉他。第二天，两个人被分开安排行程，同框的镜头被剪掉，社交账号互相取关。三个月后，他们在一次颁奖典礼上擦肩而过，谁也没看谁。你后来再也没在那家咖啡店见过他们。",
       "expectUnlocked": [
         "note-inner",
         "ig-threat",
@@ -646,10 +1329,56 @@
           "target": "ig-threat"
         },
         {
-          "choose": "leave-phone"
+          "choose": "t-screenshot"
+        },
+        {
+          "advanceMs": 2000
+        },
+        {
+          "choose": "m-manager"
+        },
+        {
+          "advanceMs": 2000
+        },
+        {
+          "choose": "m-yy"
+        },
+        {
+          "choose": "f-leave"
         }
       ],
-      "ending": "结局 · 你只是路过：第二天你故意在同一时间去那家咖啡店写论文。下午两点，肖俊推门进来，对店员笑了一下，从吧台拿起手机。他有没有看到那条勒索私信、有没有回扬扬，你永远不会知道。你把咖啡喝完，走了。",
+      "ending": "结局 · 你只是路过：你留下一张纸条「你的手机在吧台」，走了。第二天你故意在同一时间去那家咖啡店写论文。下午两点，肖俊推门进来，对店员笑了一下，从吧台拿起手机。他有没有看到那条勒索私信、有没有回扬扬，你永远不会知道。你把咖啡喝完，走了。",
+      "expectUnlocked": [
+        "note-inner",
+        "ig-threat",
+        "photo-duo-hannam"
+      ]
+    },
+    {
+      "name": "ending-boom",
+      "steps": [
+        {
+          "event": "read",
+          "target": "wx-yy-1"
+        },
+        {
+          "event": "read",
+          "target": "wx-yy-7"
+        },
+        {
+          "event": "read",
+          "target": "note-inner",
+          "password": "1008"
+        },
+        {
+          "event": "read",
+          "target": "ig-threat"
+        },
+        {
+          "choose": "t-call-sasaeng"
+        }
+      ],
+      "ending": "结局 · 事情爆了：你回拨那个号码的第三天，推特上出现了一张完整的照片。评论区一开始只是磕糖，后来变成了对肖俊和扬扬的网暴。公司发了声明，两个人被暂停活动三个月。你坐在咖啡店吧台前，看着热搜词条刷新，手里还攥着那杯没喝完的冰美式。",
       "expectUnlocked": [
         "note-inner",
         "ig-threat",
